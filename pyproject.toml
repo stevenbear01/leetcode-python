@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "leetcode-python"
+version = "0.1.0"
+description = "A collection of LeetCode solutions in Python."
+authors = ["Your Name <youremail@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pytest = "^6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
